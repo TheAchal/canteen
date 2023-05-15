@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+  },
+  "name": "Samosa",
+  "image": "samosa.webp",
+  "price": "15"
+},{
+  "_id": {
+    "$oid": "5eee6671a27a66807cf2bea3"
+  },
+  "name": "Dosa",
+  "image": "pizza.png",
+  "price": "50"
+},{
+  "_id": {
+    "$oid": "5eee6692a27a66807cf2bea4"
+  },
+  "name": "Chai",
+  "image": "pizza.png",
+  "price": "10",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea5"
+  },
+  "name": "Coffee",
+  "image": "pizza.png",
+  "price": "25"
+},{
+  "_id": {
+    "$oid": "5eee66c4a27a66807cf2bea6"
+  },
+  "name": "Chola bhatura",
+  "image": "pizza.png",
+  "price": "40"
+},{
+  "_id": {
+    "$oid": "5eee66cfa27a66807cf2bea7"
+  },
+  "name": "Patties",
+  "image": "pizza.png",
+  "price": "20"
+},{
+  "_id": {
+    "$oid": "5eee66eea27a66807cf2bea8"
+  },
+  "name": "Pizza",
+  "image": "pizza.png",
+  "price": "60",
+  "size": "Small"
+},{ 
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Pizza",
+  "image": "pizza.png",
+  "price": "70",
+  "size": "Medium"
+},{ 
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Pizza",
+  "image": "pizza.png",
+  "price": "100",
+  "size": "Large"
+},{ 
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Kachori",
+  "image": "pizza.png",
+  "price": "60"
+},{ 
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Ice cream",
+  "image": "pizza.png",
+  "price": "30"
+},{ 
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Thali",
+  "image": "pizza.png",
+  "price": "100"
+}]
