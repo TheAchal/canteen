@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 .noty_layout_mixin,
 #noty_layout__centerRight,
 #noty_layout__centerLeft,
@@ -28,6 +28,7 @@
   width:50px;
   height: 50px ;
   border-radius: 40%;
+  margin-left : 5px;
 }
 .logo_head{
   position: relative;
@@ -168,6 +169,18 @@
 
 .noty_close_button:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+.txt_1{
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  color: hsla(30, 100%, 47%, 0.879);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .noty_modal {
@@ -358,10 +371,22 @@ section.hero {
 .add-to-cart:focus {
   outline: none;
 }
+.gap{
+  margin-top: 25px;
+}
+/* .spacing{
+  margin-left: 15px ;
+} */
+.college_logo{
+  margin-left: 12rem;
+  height: 50px;
+  width: 150px;
+}
 
 .btn-primary {
   background: #FE5F1E;
   transition: all 0.3s ease-in-out;
+  /* margin-top: 20px; */
 }
 
 .btn-primary:hover {

@@ -34,6 +34,8 @@ function initRoutes(app) {
     app.post('/admin/order/status', admin, statusController().update)
     app.get('/admin/', admin, adminHomeController().index )
     app.post('/uploadItem', admin, middle.itempic.single('image'), adminuploadItem().upload )
+    app.get('/PublishItem/:id',  admin, adminHomeController().publish)
+    app.get('/deleteItem/:id',  admin, adminHomeController().delete)
 
 }
 

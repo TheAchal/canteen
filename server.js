@@ -11,9 +11,8 @@ const flash = require('express-flash')
 const MongoDbStore = require('connect-mongo')(session)
 const passport = require('passport')
 const Emitter = require('events')
-
 // Database connection
-mongoose.connect("mongodb+srv://achaltiwari:achal12345@cluster0.kygobsi.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : true });
+mongoose.connect("mongodb+srv://achaltiwari:achal12345@cluster0.kygobsi.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology: true, useFindAndModify : false });
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log('Database connected...');
